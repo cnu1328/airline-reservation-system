@@ -1,0 +1,460 @@
+INSERT INTO Flight (flight_code, flight_name, source, destination, class_code, amount)
+VALUES 
+('FL002', 'Delhi to Ahmedabad', 'Delhi', 'Ahmedabad', 'Economy', 5500.00),
+('FL003', 'Delhi to Bangalore', 'Delhi', 'Bangalore', 'Economy', 6000.00),
+('FL004', 'Delhi to Chennai', 'Delhi', 'Chennai', 'Economy', 5200.00),
+('FL005', 'Delhi to Hyderabad', 'Delhi', 'Hyderabad', 'Economy', 5800.00),
+('FL006', 'Delhi to Indore', 'Delhi', 'Indore', 'Economy', 4800.00),
+('FL007', 'Delhi to Jaipur', 'Delhi', 'Jaipur', 'Economy', 5100.00),
+('FL008', 'Delhi to Kolkata', 'Delhi', 'Kolkata', 'Economy', 5400.00),
+('FL009', 'Delhi to Lucknow', 'Delhi', 'Lucknow', 'Economy', 5300.00),
+('FL010', 'Delhi to Maharashtra', 'Delhi', 'Maharashtra', 'Economy', 5600.00),
+('FL011', 'Delhi to Mumbai', 'Delhi', 'Mumbai', 'Economy', 5900.00),
+('FL012', 'Delhi to Pune', 'Delhi', 'Pune', 'Economy', 5700.00);
+
+
+INSERT INTO Flight (flight_code, flight_name, source, destination, class_code, amount)
+VALUES 
+('FL013', 'Delhi to Ahmedabad', 'Delhi', 'Ahmedabad', 'Business', 8500.00),
+('FL014', 'Delhi to Bangalore', 'Delhi', 'Bangalore', 'Business', 9000.00),
+('FL015', 'Delhi to Chennai', 'Delhi', 'Chennai', 'Business', 8200.00),
+('FL016', 'Delhi to Hyderabad', 'Delhi', 'Hyderabad', 'Business', 8800.00),
+('FL017', 'Delhi to Indore', 'Delhi', 'Indore', 'Business', 7800.00),
+('FL018', 'Delhi to Jaipur', 'Delhi', 'Jaipur', 'Business', 8100.00),
+('FL019', 'Delhi to Kolkata', 'Delhi', 'Kolkata', 'Business', 8400.00),
+('FL020', 'Delhi to Lucknow', 'Delhi', 'Lucknow', 'Business', 8300.00),
+('FL021', 'Delhi to Maharashtra', 'Delhi', 'Maharashtra', 'Business', 8600.00),
+('FL022', 'Delhi to Mumbai', 'Delhi', 'Mumbai', 'Business', 8900.00),
+('FL023', 'Delhi to Pune', 'Delhi', 'Pune', 'Business', 8700.00);
+
+INSERT INTO Flight (flight_code, flight_name, source, destination, class_code, amount)
+VALUES 
+('FL024', 'Delhi to Ahmedabad', 'Delhi', 'Ahmedabad', 'Premium', 9500.00),
+('FL025', 'Delhi to Bangalore', 'Delhi', 'Bangalore', 'Premium', 10000.00),
+('FL026', 'Delhi to Chennai', 'Delhi', 'Chennai', 'Premium', 9200.00),
+('FL027', 'Delhi to Hyderabad', 'Delhi', 'Hyderabad', 'Premium', 9800.00),
+('FL028', 'Delhi to Indore', 'Delhi', 'Indore', 'Premium', 8800.00),
+('FL029', 'Delhi to Jaipur', 'Delhi', 'Jaipur', 'Premium', 9100.00),
+('FL030', 'Delhi to Kolkata', 'Delhi', 'Kolkata', 'Premium', 9400.00),
+('FL031', 'Delhi to Lucknow', 'Delhi', 'Lucknow', 'Premium', 9300.00),
+('FL032', 'Delhi to Maharashtra', 'Delhi', 'Maharashtra', 'Premium', 9600.00),
+('FL033', 'Delhi to Mumbai', 'Delhi', 'Mumbai', 'Premium', 9900.00),
+('FL034', 'Delhi to Pune', 'Delhi', 'Pune', 'Premium', 9700.00);
+
+
+INSERT INTO Flight (flight_code, flight_name, source, destination, class_code, amount)
+VALUES 
+('FL035', 'Hyderabad to Ahmedabad', 'Hyderabad', 'Ahmedabad', 'Economy', 5500.00),
+('FL036', 'Hyderabad to Bangalore', 'Hyderabad', 'Bangalore', 'Economy', 6000.00),
+('FL037', 'Hyderabad to Chennai', 'Hyderabad', 'Chennai', 'Economy', 5200.00),
+('FL038', 'Hyderabad to Delhi', 'Hyderabad', 'Delhi', 'Economy', 5800.00),
+('FL039', 'Hyderabad to Indore', 'Hyderabad', 'Indore', 'Economy', 4800.00),
+('FL040', 'Hyderabad to Jaipur', 'Hyderabad', 'Jaipur', 'Economy', 5100.00),
+('FL041', 'Hyderabad to Kolkata', 'Hyderabad', 'Kolkata', 'Economy', 5400.00),
+('FL042', 'Hyderabad to Lucknow', 'Hyderabad', 'Lucknow', 'Economy', 5300.00),
+('FL043', 'Hyderabad to Maharashtra', 'Hyderabad', 'Maharashtra', 'Economy', 5600.00),
+('FL044', 'Hyderabad to Mumbai', 'Hyderabad', 'Mumbai', 'Economy', 5900.00),
+('FL045', 'Hyderabad to Pune', 'Hyderabad', 'Pune', 'Economy', 5700.00);
+
+
+INSERT INTO Flight (flight_code, flight_name, source, destination, class_code, amount)
+VALUES 
+('FL046', 'Hyderabad to Ahmedabad', 'Hyderabad', 'Ahmedabad', 'Business', 8500.00),
+('FL047', 'Hyderabad to Bangalore', 'Hyderabad', 'Bangalore', 'Business', 9000.00),
+('FL048', 'Hyderabad to Chennai', 'Hyderabad', 'Chennai', 'Business', 8200.00),
+('FL049', 'Hyderabad to Delhi', 'Hyderabad', 'Delhi', 'Business', 8800.00),
+('FL050', 'Hyderabad to Indore', 'Hyderabad', 'Indore', 'Business', 7800.00),
+('FL051', 'Hyderabad to Jaipur', 'Hyderabad', 'Jaipur', 'Business', 8100.00),
+('FL052', 'Hyderabad to Kolkata', 'Hyderabad', 'Kolkata', 'Business', 8400.00),
+('FL053', 'Hyderabad to Lucknow', 'Hyderabad', 'Lucknow', 'Business', 8300.00),
+('FL054', 'Hyderabad to Maharashtra', 'Hyderabad', 'Maharashtra', 'Business', 8600.00),
+('FL055', 'Hyderabad to Mumbai', 'Hyderabad', 'Mumbai', 'Business', 8900.00),
+('FL056', 'Hyderabad to Pune', 'Hyderabad', 'Pune', 'Business', 8700.00);
+
+
+INSERT INTO Flight (flight_code, flight_name, source, destination, class_code, amount)
+VALUES 
+('FL057', 'Hyderabad to Ahmedabad', 'Hyderabad', 'Ahmedabad', 'Premium', 9500.00),
+('FL058', 'Hyderabad to Bangalore', 'Hyderabad', 'Bangalore', 'Premium', 10000.00),
+('FL059', 'Hyderabad to Chennai', 'Hyderabad', 'Chennai', 'Premium', 9200.00),
+('FL060', 'Hyderabad to Delhi', 'Hyderabad', 'Delhi', 'Premium', 9800.00),
+('FL061', 'Hyderabad to Indore', 'Hyderabad', 'Indore', 'Premium', 8800.00),
+('FL062', 'Hyderabad to Jaipur', 'Hyderabad', 'Jaipur', 'Premium', 9100.00),
+('FL063', 'Hyderabad to Kolkata', 'Hyderabad', 'Kolkata', 'Premium', 9400.00),
+('FL064', 'Hyderabad to Lucknow', 'Hyderabad', 'Lucknow', 'Premium', 9300.00),
+('FL065', 'Hyderabad to Maharashtra', 'Hyderabad', 'Maharashtra', 'Premium', 9600.00),
+('FL066', 'Hyderabad to Mumbai', 'Hyderabad', 'Mumbai', 'Premium', 9900.00),
+('FL067', 'Hyderabad to Pune', 'Hyderabad', 'Pune', 'Premium', 9700.00);
+
+
+INSERT INTO Flight (flight_code, flight_name, source, destination, class_code, amount)
+VALUES 
+('FL068', 'Ahmedabad to Hyderabad', 'Ahmedabad', 'Hyderabad', 'Economy', 5500.00),
+('FL069', 'Ahmedabad to Bangalore', 'Ahmedabad', 'Bangalore', 'Economy', 6000.00),
+('FL070', 'Ahmedabad to Chennai', 'Ahmedabad', 'Chennai', 'Economy', 5200.00),
+('FL071', 'Ahmedabad to Delhi', 'Ahmedabad', 'Delhi', 'Economy', 5800.00),
+('FL072', 'Ahmedabad to Indore', 'Ahmedabad', 'Indore', 'Economy', 4800.00),
+('FL073', 'Ahmedabad to Jaipur', 'Ahmedabad', 'Jaipur', 'Economy', 5100.00),
+('FL074', 'Ahmedabad to Kolkata', 'Ahmedabad', 'Kolkata', 'Economy', 5400.00),
+('FL075', 'Ahmedabad to Lucknow', 'Ahmedabad', 'Lucknow', 'Economy', 5300.00),
+('FL076', 'Ahmedabad to Maharashtra', 'Ahmedabad', 'Maharashtra', 'Economy', 5600.00),
+('FL077', 'Ahmedabad to Mumbai', 'Ahmedabad', 'Mumbai', 'Economy', 5900.00),
+('FL078', 'Ahmedabad to Pune', 'Ahmedabad', 'Pune', 'Economy', 5700.00);
+
+
+INSERT INTO Flight (flight_code, flight_name, source, destination, class_code, amount)
+VALUES 
+('FL079', 'Ahmedabad to Hyderabad', 'Ahmedabad', 'Hyderabad', 'Business', 8500.00),
+('FL080', 'Ahmedabad to Bangalore', 'Ahmedabad', 'Bangalore', 'Business', 9000.00),
+('FL081', 'Ahmedabad to Chennai', 'Ahmedabad', 'Chennai', 'Business', 8200.00),
+('FL082', 'Ahmedabad to Delhi', 'Ahmedabad', 'Delhi', 'Business', 8800.00),
+('FL083', 'Ahmedabad to Indore', 'Ahmedabad', 'Indore', 'Business', 7800.00),
+('FL084', 'Ahmedabad to Jaipur', 'Ahmedabad', 'Jaipur', 'Business', 8100.00),
+('FL085', 'Ahmedabad to Kolkata', 'Ahmedabad', 'Kolkata', 'Business', 8400.00),
+('FL086', 'Ahmedabad to Lucknow', 'Ahmedabad', 'Lucknow', 'Business', 8300.00),
+('FL087', 'Ahmedabad to Maharashtra', 'Ahmedabad', 'Maharashtra', 'Business', 8600.00),
+('FL088', 'Ahmedabad to Mumbai', 'Ahmedabad', 'Mumbai', 'Business', 8900.00),
+('FL089', 'Ahmedabad to Pune', 'Ahmedabad', 'Pune', 'Business', 8700.00);
+
+
+INSERT INTO Flight (flight_code, flight_name, source, destination, class_code, amount)
+VALUES 
+('FL090', 'Ahmedabad to Hyderabad', 'Ahmedabad', 'Hyderabad', 'Premium', 9500.00),
+('FL091', 'Ahmedabad to Bangalore', 'Ahmedabad', 'Bangalore', 'Premium', 10000.00),
+('FL092', 'Ahmedabad to Chennai', 'Ahmedabad', 'Chennai', 'Premium', 9200.00),
+('FL093', 'Ahmedabad to Delhi', 'Ahmedabad', 'Delhi', 'Premium', 9800.00),
+('FL094', 'Ahmedabad to Indore', 'Ahmedabad', 'Indore', 'Premium', 8800.00),
+('FL095', 'Ahmedabad to Jaipur', 'Ahmedabad', 'Jaipur', 'Premium', 9100.00),
+('FL096', 'Ahmedabad to Kolkata', 'Ahmedabad', 'Kolkata', 'Premium', 9400.00),
+('FL097', 'Ahmedabad to Lucknow', 'Ahmedabad', 'Lucknow', 'Premium', 9300.00),
+('FL098', 'Ahmedabad to Maharashtra', 'Ahmedabad', 'Maharashtra', 'Premium', 9600.00),
+('FL099', 'Ahmedabad to Mumbai', 'Ahmedabad', 'Mumbai', 'Premium', 9900.00),
+('FL100', 'Ah
+
+INSERT INTO Flight (flight_code, flight_name, source, destination, class_code, amount)
+VALUES 
+('FL101', 'Bangalore to Ahmedabad', 'Bangalore', 'Ahmedabad', 'Economy', 5500.00),
+('FL102', 'Bangalore to Hyderabad', 'Bangalore', 'Hyderabad', 'Economy', 6000.00),
+('FL103', 'Bangalore to Chennai', 'Bangalore', 'Chennai', 'Economy', 5200.00),
+('FL104', 'Bangalore to Delhi', 'Bangalore', 'Delhi', 'Economy', 5800.00),
+('FL105', 'Bangalore to Indore', 'Bangalore', 'Indore', 'Economy', 4800.00),
+('FL106', 'Bangalore to Jaipur', 'Bangalore', 'Jaipur', 'Economy', 5100.00),
+('FL107', 'Bangalore to Kolkata', 'Bangalore', 'Kolkata', 'Economy', 5400.00),
+('FL108', 'Bangalore to Lucknow', 'Bangalore', 'Lucknow', 'Economy', 5300.00),
+('FL109', 'Bangalore to Maharashtra', 'Bangalore', 'Maharashtra', 'Economy', 5600.00),
+('FL110', 'Bangalore to Mumbai', 'Bangalore', 'Mumbai', 'Economy', 5900.00),
+('FL111', 'Bangalore to Pune', 'Bangalore', 'Pune', 'Economy', 5700.00);
+
+INSERT INTO Flight (flight_code, flight_name, source, destination, class_code, amount)
+VALUES 
+('FL112', 'Bangalore to Ahmedabad', 'Bangalore', 'Ahmedabad', 'Business', 8500.00),
+('FL113', 'Bangalore to Hyderabad', 'Bangalore', 'Hyderabad', 'Business', 9000.00),
+('FL114', 'Bangalore to Chennai', 'Bangalore', 'Chennai', 'Business', 8200.00),
+('FL115', 'Bangalore to Delhi', 'Bangalore', 'Delhi', 'Business', 8800.00),
+('FL116', 'Bangalore to Indore', 'Bangalore', 'Indore', 'Business', 7800.00),
+('FL117', 'Bangalore to Jaipur', 'Bangalore', 'Jaipur', 'Business', 8100.00),
+('FL118', 'Bangalore to Kolkata', 'Bangalore', 'Kolkata', 'Business', 8400.00),
+('FL119', 'Bangalore to Lucknow', 'Bangalore', 'Lucknow', 'Business', 8300.00),
+('FL120', 'Bangalore to Maharashtra', 'Bangalore', 'Maharashtra', 'Business', 8600.00),
+('FL121', 'Bangalore to Mumbai', 'Bangalore', 'Mumbai', 'Business', 8900.00),
+('FL122', 'Bangalore to Pune', 'Bangalore', 'Pune', 'Business', 8700.00);
+
+
+INSERT INTO Flight (flight_code, flight_name, source, destination, class_code, amount)
+VALUES 
+('FL123', 'Bangalore to Ahmedabad', 'Bangalore', 'Ahmedabad', 'Premium', 9500.00),
+('FL124', 'Bangalore to Hyderabad', 'Bangalore', 'Hyderabad', 'Premium', 10000.00),
+('FL125', 'Bangalore to Chennai', 'Bangalore', 'Chennai', 'Premium', 9200.00),
+('FL126', 'Bangalore to Delhi', 'Bangalore', 'Delhi', 'Premium', 9800.00),
+('FL127', 'Bangalore to Indore', 'Bangalore', 'Indore', 'Premium', 8800.00),
+('FL128', 'Bangalore to Jaipur', 'Bangalore', 'Jaipur', 'Premium', 9100.00),
+('FL129', 'Bangalore to Kolkata', 'Bangalore', 'Kolkata', 'Premium', 9400.00),
+('FL130', 'Bangalore to Lucknow', 'Bangalore', 'Lucknow', 'Premium', 9300.00),
+('FL131', 'Bangalore to Maharashtra', 'Bangalore', 'Maharashtra', 'Premium', 9600.00),
+('FL132', 'Bangalore to Mumbai', 'Bangalore', 'Mumbai', 'Premium', 9900.00),
+('FL133', 'Bangalore to Pune', 'Bangalore', 'Pune', 'Premium', 9700.00);
+
+INSERT INTO Flight (flight_code, flight_name, source, destination, class_code, amount)
+VALUES 
+('FL134', 'Indore to Ahmedabad', 'Indore', 'Ahmedabad', 'Economy', 5500.00),
+('FL135', 'Indore to Bangalore', 'Indore', 'Bangalore', 'Economy', 6000.00),
+('FL136', 'Indore to Chennai', 'Indore', 'Chennai', 'Economy', 5200.00),
+('FL137', 'Indore to Delhi', 'Indore', 'Delhi', 'Economy', 5800.00),
+('FL138', 'Indore to Hyderabad', 'Indore', 'Hyderabad', 'Economy', 4800.00),
+('FL139', 'Indore to Jaipur', 'Indore', 'Jaipur', 'Economy', 5100.00),
+('FL140', 'Indore to Kolkata', 'Indore', 'Kolkata', 'Economy', 5400.00),
+('FL141', 'Indore to Lucknow', 'Indore', 'Lucknow', 'Economy', 5300.00),
+('FL142', 'Indore to Maharashtra', 'Indore', 'Maharashtra', 'Economy', 5600.00),
+('FL143', 'Indore to Mumbai', 'Indore', 'Mumbai', 'Economy', 5900.00),
+('FL144', 'Indore to Pune', 'Indore', 'Pune', 'Economy', 5700.00);
+
+INSERT INTO Flight (flight_code, flight_name, source, destination, class_code, amount)
+VALUES 
+('FL145', 'Indore to Ahmedabad', 'Indore', 'Ahmedabad', 'Business', 8500.00),
+('FL146', 'Indore to Bangalore', 'Indore', 'Bangalore', 'Business', 9000.00),
+('FL147', 'Indore to Chennai', 'Indore', 'Chennai', 'Business', 8200.00),
+('FL148', 'Indore to Delhi', 'Indore', 'Delhi', 'Business', 8800.00),
+('FL149', 'Indore to Hyderabad', 'Indore', 'Hyderabad', 'Business', 7800.00),
+('FL150', 'Indore to Jaipur', 'Indore', 'Jaipur', 'Business', 8100.00),
+('FL151', 'Indore to Kolkata', 'Indore', 'Kolkata', 'Business', 8400.00),
+('FL152', 'Indore to Lucknow', 'Indore', 'Lucknow', 'Business', 8300.00),
+('FL153', 'Indore to Maharashtra', 'Indore', 'Maharashtra', 'Business', 8600.00),
+('FL154', 'Indore to Mumbai', 'Indore', 'Mumbai', 'Business', 8900.00),
+('FL155', 'Indore to Pune', 'Indore', 'Pune', 'Business', 8700.00);
+
+INSERT INTO Flight (flight_code, flight_name, source, destination, class_code, amount)
+VALUES 
+('FL156', 'Indore to Ahmedabad', 'Indore', 'Ahmedabad', 'Premium', 9500.00),
+('FL157', 'Indore to Bangalore', 'Indore', 'Bangalore', 'Premium', 10000.00),
+('FL158', 'Indore to Chennai', 'Indore', 'Chennai', 'Premium', 9200.00),
+('FL159', 'Indore to Delhi', 'Indore', 'Delhi', 'Premium', 9800.00),
+('FL160', 'Indore to Hyderabad', 'Indore', 'Hyderabad', 'Premium', 8800.00),
+('FL161', 'Indore to Jaipur', 'Indore', 'Jaipur', 'Premium', 9100.00),
+('FL162', 'Indore to Kolkata', 'Indore', 'Kolkata', 'Premium', 9400.00),
+('FL163', 'Indore to Lucknow', 'Indore', 'Lucknow', 'Premium', 9300.00),
+('FL164', 'Indore to Maharashtra', 'Indore', 'Maharashtra', 'Premium', 9600.00),
+('FL165', 'Indore to Mumbai', 'Indore', 'Mumbai', 'Premium', 9900.00),
+('FL166', 'Indore to Pune', 'Indore', 'Pune', 'Premium', 9700.00);
+
+INSERT INTO Flight (flight_code, flight_name, source, destination, class_code, amount)
+VALUES 
+('FL167', 'Jaipur to Ahmedabad', 'Jaipur', 'Ahmedabad', 'Economy', 5500.00),
+('FL168', 'Jaipur to Bangalore', 'Jaipur', 'Bangalore', 'Economy', 6000.00),
+('FL169', 'Jaipur to Chennai', 'Jaipur', 'Chennai', 'Economy', 5200.00),
+('FL170', 'Jaipur to Delhi', 'Jaipur', 'Delhi', 'Economy', 5800.00),
+('FL171', 'Jaipur to Indore', 'Jaipur', 'Indore', 'Economy', 4800.00),
+('FL172', 'Jaipur to Hyderabad', 'Jaipur', 'Hyderabad', 'Economy', 5100.00),
+('FL173', 'Jaipur to Kolkata', 'Jaipur', 'Kolkata', 'Economy', 5400.00),
+('FL174', 'Jaipur to Lucknow', 'Jaipur', 'Lucknow', 'Economy', 5300.00),
+('FL175', 'Jaipur to Maharashtra', 'Jaipur', 'Maharashtra', 'Economy', 5600.00),
+('FL176', 'Jaipur to Mumbai', 'Jaipur', 'Mumbai', 'Economy', 5900.00),
+('FL177', 'Jaipur to Pune', 'Jaipur', 'Pune', 'Economy', 5700.00);
+
+INSERT INTO Flight (flight_code, flight_name, source, destination, class_code, amount)
+VALUES 
+('FL178', 'Jaipur to Ahmedabad', 'Jaipur', 'Ahmedabad', 'Business', 8500.00),
+('FL179', 'Jaipur to Bangalore', 'Jaipur', 'Bangalore', 'Business', 9000.00),
+('FL180', 'Jaipur to Chennai', 'Jaipur', 'Chennai', 'Business', 8200.00),
+('FL181', 'Jaipur to Delhi', 'Jaipur', 'Delhi', 'Business', 8800.00),
+('FL182', 'Jaipur to Indore', 'Jaipur', 'Indore', 'Business', 7800.00),
+('FL183', 'Jaipur to Hyderabad', 'Jaipur', 'Hyderabad', 'Business', 8100.00),
+('FL184', 'Jaipur to Kolkata', 'Jaipur', 'Kolkata', 'Business', 8400.00),
+('FL185', 'Jaipur to Lucknow', 'Jaipur', 'Lucknow', 'Business', 8300.00),
+('FL186', 'Jaipur to Maharashtra', 'Jaipur', 'Maharashtra', 'Business', 8600.00),
+('FL187', 'Jaipur to Mumbai', 'Jaipur', 'Mumbai', 'Business', 8900.00),
+('FL188', 'Jaipur to Pune', 'Jaipur', 'Pune', 'Business', 8700.00);
+
+INSERT INTO Flight (flight_code, flight_name, source, destination, class_code, amount)
+VALUES 
+('FL189', 'Jaipur to Ahmedabad', 'Jaipur', 'Ahmedabad', 'Premium', 9500.00),
+('FL190', 'Jaipur to Bangalore', 'Jaipur', 'Bangalore', 'Premium', 10000.00),
+('FL191', 'Jaipur to Chennai', 'Jaipur', 'Chennai', 'Premium', 9200.00),
+('FL192', 'Jaipur to Delhi', 'Jaipur', 'Delhi', 'Premium', 9800.00),
+('FL193', 'Jaipur to Indore', 'Jaipur', 'Indore', 'Premium', 8800.00),
+('FL194', 'Jaipur to Hyderabad', 'Jaipur', 'Hyderabad', 'Premium', 9100.00),
+('FL195', 'Jaipur to Kolkata', 'Jaipur', 'Kolkata', 'Premium', 9400.00),
+('FL196', 'Jaipur to Lucknow', 'Jaipur', 'Lucknow', 'Premium', 9300.00),
+('FL197', 'Jaipur to Maharashtra', 'Jaipur', 'Maharashtra', 'Premium', 9600.00),
+('FL198', 'Jaipur to Mumbai', 'Jaipur', 'Mumbai', 'Premium', 9900.00),
+('FL199', 'Jaipur to Pune', 'Jaipur', 'Pune', 'Premium', 9700.00);
+
+
+INSERT INTO Flight (flight_code, flight_name, source, destination, class_code, amount)
+VALUES 
+('FL200', 'Kolkata to Ahmedabad', 'Kolkata', 'Ahmedabad', 'Economy', 5500.00),
+('FL201', 'Kolkata to Bangalore', 'Kolkata', 'Bangalore', 'Economy', 6000.00),
+('FL202', 'Kolkata to Chennai', 'Kolkata', 'Chennai', 'Economy', 5200.00),
+('FL203', 'Kolkata to Delhi', 'Kolkata', 'Delhi', 'Economy', 5800.00),
+('FL204', 'Kolkata to Indore', 'Kolkata', 'Indore', 'Economy', 4800.00),
+('FL205', 'Kolkata to Jaipur', 'Kolkata', 'Jaipur', 'Economy', 5100.00),
+('FL206', 'Kolkata to Hyderabad', 'Kolkata', 'Hyderabad', 'Economy', 5400.00),
+('FL207', 'Kolkata to Lucknow', 'Kolkata', 'Lucknow', 'Economy', 5300.00),
+('FL208', 'Kolkata to Maharashtra', 'Kolkata', 'Maharashtra', 'Economy', 5600.00),
+('FL209', 'Kolkata to Mumbai', 'Kolkata', 'Mumbai', 'Economy', 5900.00),
+('FL210', 'Kolkata to Pune', 'Kolkata', 'Pune', 'Economy', 5700.00);
+
+
+
+
+
+
+
+INSERT INTO Flight (flight_code, source, destination, class_code, amount, flight_name)
+VALUES 
+('FL233', 'Lucknow', 'Ahmedabad', 'Economy', 5500.00, 'Lucknow to Ahmedabad'),
+('FL234', 'Lucknow', 'Bangalore', 'Economy', 6000.00, 'Lucknow to Bangalore'),
+('FL235', 'Lucknow', 'Chennai', 'Economy', 5200.00, 'Lucknow to Chennai'),
+('FL236', 'Lucknow', 'Delhi', 'Economy', 5800.00, 'Lucknow to Delhi'),
+('FL237', 'Lucknow', 'Indore', 'Economy', 4800.00, 'Lucknow to Indore'),
+('FL238', 'Lucknow', 'Jaipur', 'Economy', 5100.00, 'Lucknow to Jaipur'),
+('FL239', 'Lucknow', 'Kolkata', 'Economy', 5400.00, 'Lucknow to Kolkata'),
+('FL240', 'Lucknow', 'Hyderabad', 'Economy', 5300.00, 'Lucknow to Hyderabad'),
+('FL241', 'Lucknow', 'Maharashtra', 'Economy', 5600.00, 'Lucknow to Maharashtra'),
+('FL242', 'Lucknow', 'Mumbai', 'Economy', 5900.00, 'Lucknow to Mumbai'),
+('FL243', 'Lucknow', 'Pune', 'Economy', 5700.00, 'Lucknow to Pune');
+
+
+INSERT INTO Flight (flight_code, source, destination, class_code, amount, flight_name)
+VALUES 
+('FL244', 'Lucknow', 'Ahmedabad', 'Business', 8500.00, 'Lucknow to Ahmedabad'),
+('FL245', 'Lucknow', 'Bangalore', 'Business', 9000.00, 'Lucknow to Bangalore'),
+('FL246', 'Lucknow', 'Chennai', 'Business', 8200.00, 'Lucknow to Chennai'),
+('FL247', 'Lucknow', 'Delhi', 'Business', 8800.00, 'Lucknow to Delhi'),
+('FL248', 'Lucknow', 'Indore', 'Business', 7800.00, 'Lucknow to Indore'),
+('FL249', 'Lucknow', 'Jaipur', 'Business', 8100.00, 'Lucknow to Jaipur'),
+('FL250', 'Lucknow', 'Kolkata', 'Business', 8400.00, 'Lucknow to Kolkata'),
+('FL251', 'Lucknow', 'Hyderabad', 'Business', 8300.00, 'Lucknow to Hyderabad'),
+('FL252', 'Lucknow', 'Maharashtra', 'Business', 8600.00, 'Lucknow to Maharashtra'),
+('FL253', 'Lucknow', 'Mumbai', 'Business', 8900.00, 'Lucknow to Mumbai'),
+('FL254', 'Lucknow', 'Pune', 'Business', 8700.00, 'Lucknow to Pune');
+
+
+INSERT INTO Flight (flight_code, source, destination, class_code, amount, flight_name)
+VALUES 
+('FL255', 'Lucknow', 'Ahmedabad', 'Premium', 9500.00, 'Lucknow to Ahmedabad'),
+('FL256', 'Lucknow', 'Bangalore', 'Premium', 10000.00, 'Lucknow to Bangalore'),
+('FL257', 'Lucknow', 'Chennai', 'Premium', 9200.00, 'Lucknow to Chennai'),
+('FL258', 'Lucknow', 'Delhi', 'Premium', 9800.00, 'Lucknow to Delhi'),
+('FL259', 'Lucknow', 'Indore', 'Premium', 8800.00, 'Lucknow to Indore'),
+('FL260', 'Lucknow', 'Jaipur', 'Premium', 9100.00, 'Lucknow to Jaipur'),
+('FL261', 'Lucknow', 'Kolkata', 'Premium', 9400.00, 'Lucknow to Kolkata'),
+('FL262', 'Lucknow', 'Hyderabad', 'Premium', 9300.00, 'Lucknow to Hyderabad'),
+('FL263', 'Lucknow', 'Maharashtra', 'Premium', 9600.00, 'Lucknow to Maharashtra'),
+('FL264', 'Lucknow', 'Mumbai', 'Premium', 9900.00, 'Lucknow to Mumbai'),
+('FL265', 'Lucknow', 'Pune', 'Premium', 9700.00, 'Lucknow to Pune');
+
+
+INSERT INTO Flight (flight_code, source, destination, class_code, amount, flight_name)
+VALUES 
+('FL266', 'Maharashtra', 'Ahmedabad', 'Economy', 5500.00, 'Maharashtra to Ahmedabad'),
+('FL267', 'Maharashtra', 'Bangalore', 'Economy', 6000.00, 'Maharashtra to Bangalore'),
+('FL268', 'Maharashtra', 'Chennai', 'Economy', 5200.00, 'Maharashtra to Chennai'),
+('FL269', 'Maharashtra', 'Delhi', 'Economy', 5800.00, 'Maharashtra to Delhi'),
+('FL270', 'Maharashtra', 'Indore', 'Economy', 4800.00, 'Maharashtra to Indore'),
+('FL271', 'Maharashtra', 'Jaipur', 'Economy', 5100.00, 'Maharashtra to Jaipur'),
+('FL272', 'Maharashtra', 'Kolkata', 'Economy', 5400.00, 'Maharashtra to Kolkata'),
+('FL273', 'Maharashtra', 'Lucknow', 'Economy', 5300.00, 'Maharashtra to Lucknow'),
+('FL274', 'Maharashtra', 'Hyderabad', 'Economy', 5600.00, 'Maharashtra to Hyderabad'),
+('FL275', 'Maharashtra', 'Mumbai', 'Economy', 5900.00, 'Maharashtra to Mumbai'),
+('FL276', 'Maharashtra', 'Pune', 'Economy', 5700.00, 'Maharashtra to Pune');
+
+
+INSERT INTO Flight (flight_code, source, destination, class_code, amount, flight_name)
+VALUES 
+('FL277', 'Maharashtra', 'Ahmedabad', 'Business', 8500.00, 'Maharashtra to Ahmedabad'),
+('FL278', 'Maharashtra', 'Bangalore', 'Business', 9000.00, 'Maharashtra to Bangalore'),
+('FL279', 'Maharashtra', 'Chennai', 'Business', 8200.00, 'Maharashtra to Chennai'),
+('FL280', 'Maharashtra', 'Delhi', 'Business', 8800.00, 'Maharashtra to Delhi'),
+('FL281', 'Maharashtra', 'Indore', 'Business', 7800.00, 'Maharashtra to Indore'),
+('FL282', 'Maharashtra', 'Jaipur', 'Business', 8100.00, 'Maharashtra to Jaipur'),
+('FL283', 'Maharashtra', 'Kolkata', 'Business', 8400.00, 'Maharashtra to Kolkata'),
+('FL284', 'Maharashtra', 'Lucknow', 'Business', 8300.00, 'Maharashtra to Lucknow'),
+('FL285', 'Maharashtra', 'Hyderabad', 'Business', 8600.00, 'Maharashtra to Hyderabad'),
+('FL286', 'Maharashtra', 'Mumbai', 'Business', 8900.00, 'Maharashtra to Mumbai'),
+('FL287', 'Maharashtra', 'Pune', 'Business', 8700.00, 'Maharashtra to Pune');
+
+
+
+INSERT INTO Flight (flight_code, source, destination, class_code, amount, flight_name)
+VALUES 
+('FL288', 'Maharashtra', 'Ahmedabad', 'Premium', 9500.00, 'Maharashtra to Ahmedabad'),
+('FL289', 'Maharashtra', 'Bangalore', 'Premium', 10000.00, 'Maharashtra to Bangalore'),
+('FL290', 'Maharashtra', 'Chennai', 'Premium', 9200.00, 'Maharashtra to Chennai'),
+('FL291', 'Maharashtra', 'Delhi', 'Premium', 9800.00, 'Maharashtra to Delhi'),
+('FL292', 'Maharashtra', 'Indore', 'Premium', 8800.00, 'Maharashtra to Indore'),
+('FL293', 'Maharashtra', 'Jaipur', 'Premium', 9100.00, 'Maharashtra to Jaipur'),
+('FL294', 'Maharashtra', 'Kolkata', 'Premium', 9400.00, 'Maharashtra to Kolkata'),
+('FL295', 'Maharashtra', 'Lucknow', 'Premium', 9300.00, 'Maharashtra to Lucknow'),
+('FL296', 'Maharashtra', 'Hyderabad', 'Premium', 9600.00, 'Maharashtra to Hyderabad'),
+('FL297', 'Maharashtra', 'Mumbai', 'Premium', 9900.00, 'Maharashtra to Mumbai'),
+('FL298', 'Maharashtra', 'Pune', 'Premium', 9700.00, 'Maharashtra to Pune');
+
+
+
+INSERT INTO Flight (flight_code, source, destination, class_code, amount, flight_name)
+VALUES 
+('FL299', 'Mumbai', 'Ahmedabad', 'Economy', 5500.00, 'Mumbai to Ahmedabad'),
+('FL300', 'Mumbai', 'Bangalore', 'Economy', 6000.00, 'Mumbai to Bangalore'),
+('FL301', 'Mumbai', 'Chennai', 'Economy', 5200.00, 'Mumbai to Chennai'),
+('FL302', 'Mumbai', 'Delhi', 'Economy', 5800.00, 'Mumbai to Delhi'),
+('FL303', 'Mumbai', 'Indore', 'Economy', 4800.00, 'Mumbai to Indore'),
+('FL304', 'Mumbai', 'Jaipur', 'Economy', 5100.00, 'Mumbai to Jaipur'),
+('FL305', 'Mumbai', 'Kolkata', 'Economy', 5400.00, 'Mumbai to Kolkata'),
+('FL306', 'Mumbai', 'Lucknow', 'Economy', 5300.00, 'Mumbai to Lucknow'),
+('FL307', 'Mumbai', 'Hyderabad', 'Economy', 5600.00, 'Mumbai to Hyderabad'),
+('FL308', 'Mumbai', 'Maharashtra', 'Economy', 5900.00, 'Mumbai to Maharashtra'),
+('FL309', 'Mumbai', 'Pune', 'Economy', 5700.00, 'Mumbai to Pune');
+
+INSERT INTO Flight (flight_code, source, destination, class_code, amount, flight_name)
+VALUES 
+('FL310', 'Mumbai', 'Ahmedabad', 'Business', 8500.00, 'Mumbai to Ahmedabad'),
+('FL311', 'Mumbai', 'Bangalore', 'Business', 9000.00, 'Mumbai to Bangalore'),
+('FL312', 'Mumbai', 'Chennai', 'Business', 8200.00, 'Mumbai to Chennai'),
+('FL313', 'Mumbai', 'Delhi', 'Business', 8800.00, 'Mumbai to Delhi'),
+('FL314', 'Mumbai', 'Indore', 'Business', 7800.00, 'Mumbai to Indore'),
+('FL315', 'Mumbai', 'Jaipur', 'Business', 8100.00, 'Mumbai to Jaipur'),
+('FL316', 'Mumbai', 'Kolkata', 'Business', 8400.00, 'Mumbai to Kolkata'),
+('FL317', 'Mumbai', 'Lucknow', 'Business', 8300.00, 'Mumbai to Lucknow'),
+('FL318', 'Mumbai', 'Hyderabad', 'Business', 8600.00, 'Mumbai to Hyderabad'),
+('FL319', 'Mumbai', 'Maharashtra', 'Business', 8900.00, 'Mumbai to Maharashtra'),
+('FL320', 'Mumbai', 'Pune', 'Business', 8700.00, 'Mumbai to Pune');
+
+
+INSERT INTO Flight (flight_code, source, destination, class_code, amount, flight_name)
+VALUES 
+('FL321', 'Mumbai', 'Ahmedabad', 'Premium', 9500.00, 'Mumbai to Ahmedabad'),
+('FL322', 'Mumbai', 'Bangalore', 'Premium', 10000.00, 'Mumbai to Bangalore'),
+('FL323', 'Mumbai', 'Chennai', 'Premium', 9200.00, 'Mumbai to Chennai'),
+('FL324', 'Mumbai', 'Delhi', 'Premium', 9800.00, 'Mumbai to Delhi'),
+('FL325', 'Mumbai', 'Indore', 'Premium', 8800.00, 'Mumbai to Indore'),
+('FL326', 'Mumbai', 'Jaipur', 'Premium', 9100.00, 'Mumbai to Jaipur'),
+('FL327', 'Mumbai', 'Kolkata', 'Premium', 9400.00, 'Mumbai to Kolkata'),
+('FL328', 'Mumbai', 'Lucknow', 'Premium', 9300.00, 'Mumbai to Lucknow'),
+('FL329', 'Mumbai', 'Hyderabad', 'Premium', 9600.00, 'Mumbai to Hyderabad'),
+('FL330', 'Mumbai', 'Maharashtra', 'Premium', 9900.00, 'Mumbai to Maharashtra'),
+('FL331', 'Mumbai', 'Pune', 'Premium', 9700.00, 'Mumbai to Pune');
+
+
+INSERT INTO Flight (flight_code, source, destination, class_code, amount, flight_name)
+VALUES 
+('FL332', 'Pune', 'Ahmedabad', 'Economy', 5500.00, 'Pune to Ahmedabad'),
+('FL333', 'Pune', 'Bangalore', 'Economy', 6000.00, 'Pune to Bangalore'),
+('FL334', 'Pune', 'Chennai', 'Economy', 5200.00, 'Pune to Chennai'),
+('FL335', 'Pune', 'Delhi', 'Economy', 5800.00, 'Pune to Delhi'),
+('FL336', 'Pune', 'Indore', 'Economy', 4800.00, 'Pune to Indore'),
+('FL337', 'Pune', 'Jaipur', 'Economy', 5100.00, 'Pune to Jaipur'),
+('FL338', 'Pune', 'Kolkata', 'Economy', 5400.00, 'Pune to Kolkata'),
+('FL339', 'Pune', 'Lucknow', 'Economy', 5300.00, 'Pune to Lucknow'),
+('FL340', 'Pune', 'Hyderabad', 'Economy', 5600.00, 'Pune to Hyderabad'),
+('FL341', 'Pune', 'Maharashtra', 'Economy', 5900.00, 'Pune to Maharashtra'),
+('FL342', 'Pune', 'Mumbai', 'Economy', 5700.00, 'Pune to Mumbai');
+
+
+INSERT INTO Flight (flight_code, source, destination, class_code, amount, flight_name)
+VALUES 
+('FL343', 'Pune', 'Ahmedabad', 'Business', 8500.00, 'Pune to Ahmedabad'),
+('FL344', 'Pune', 'Bangalore', 'Business', 9000.00, 'Pune to Bangalore'),
+('FL345', 'Pune', 'Chennai', 'Business', 8200.00, 'Pune to Chennai'),
+('FL346', 'Pune', 'Delhi', 'Business', 8800.00, 'Pune to Delhi'),
+('FL347', 'Pune', 'Indore', 'Business', 7800.00, 'Pune to Indore'),
+('FL348', 'Pune', 'Jaipur', 'Business', 8100.00, 'Pune to Jaipur'),
+('FL349', 'Pune', 'Kolkata', 'Business', 8400.00, 'Pune to Kolkata'),
+('FL350', 'Pune', 'Lucknow', 'Business', 8300.00, 'Pune to Lucknow'),
+('FL351', 'Pune', 'Hyderabad', 'Business', 8600.00, 'Pune to Hyderabad'),
+('FL352', 'Pune', 'Maharashtra', 'Business', 8900.00, 'Pune to Maharashtra'),
+('FL353', 'Pune', 'Mumbai', 'Business', 8700.00, 'Pune to Mumbai');
+
+INSERT INTO Flight (flight_code, source, destination, class_code, amount, flight_name)
+VALUES 
+('FL354', 'Pune', 'Ahmedabad', 'Premium', 9500.00, 'Pune to Ahmedabad'),
+('FL355', 'Pune', 'Bangalore', 'Premium', 10000.00, 'Pune to Bangalore'),
+('FL356', 'Pune', 'Chennai', 'Premium', 9200.00, 'Pune to Chennai'),
+('FL357', 'Pune', 'Delhi', 'Premium', 9800.00, 'Pune to Delhi'),
+('FL358', 'Pune', 'Indore', 'Premium', 8800.00, 'Pune to Indore'),
+('FL359', 'Pune', 'Jaipur', 'Premium', 9100.00, 'Pune to Jaipur'),
+('FL360', 'Pune', 'Kolkata', 'Premium', 9400.00, 'Pune to Kolkata'),
+('FL361', 'Pune', 'Lucknow', 'Premium', 9300.00, 'Pune to Lucknow'),
+('FL362', 'Pune', 'Hyderabad', 'Premium', 9600.00, 'Pune to Hyderabad'),
+('FL363', 'Pune', 'Maharashtra', 'Premium', 9900.00, 'Pune to Maharashtra'),
+('FL364', 'Pune', 'Mumbai', 'Premium', 9700.00, 'Pune to Mumbai');
+

@@ -1,0 +1,102 @@
+Database
+
+CREATE TABLE passenger (
+    username VARCHAR(50) PRIMARY KEY,
+    gmail VARCHAR(100),
+    name VARCHAR(100),
+    gender VARCHAR(10),
+    nationality VARCHAR(50),
+    passport VARCHAR(20),
+    phonenumber VARCHAR(15),
+    address VARCHAR(255)
+);
+
+CREATE TABLE login (
+    username VARCHAR(50) PRIMARY KEY,
+    password VARCHAR(50)
+);
+
+CREATE TABLE admin (
+    username VARCHAR(50) PRIMARY KEY,
+    password VARCHAR(50)
+);
+
+CREATE TABLE Flight (
+    flight_code VARCHAR(20),
+    source VARCHAR(50),
+    destination VARCHAR(50),
+    class_code VARCHAR(20),
+    amount DECIMAL(10,2),
+    PRIMARY KEY (flight_code, source, destination, class_code)
+);
+
+
+CREATE TABLE reservation (
+    username VARCHAR(50),
+    flight_code VARCHAR(20),
+    source VARCHAR(50),
+    destination VARCHAR(50),
+    time VARCHAR(20),
+    date DATE,
+    amount DECIMAL(10,2),
+    PRIMARY KEY (username, flight_code, time),
+    FOREIGN KEY (username) REFERENCES Passenger(username),
+    FOREIGN KEY (flight_code) REFERENCES Flight(flight_code)
+);
+
+CREATE TABLE cancellation (
+    username VARCHAR(50),
+    flight_code VARCHAR(20),
+    source VARCHAR(50),
+    destination VARCHAR(50),
+    time VARCHAR(20),
+    date DATE,
+    amount DECIMAL(10,2),
+    PRIMARY KEY (username, flight_code, time),
+    FOREIGN KEY (username) REFERENCES Passenger(username),
+    FOREIGN KEY (flight_code) REFERENCES Flight(flight_code)
+);
+
+CREATE TABLE Payment (
+    username VARCHAR(50),
+    flight_code VARCHAR(20),
+    pay_date DATE,
+    source VARCHAR(50),
+    destination VARCHAR(50),
+    time VARCHAR(20),
+    date DATE,
+    amount DECIMAL(10,2),
+    PRIMARY KEY (username, flight_code, time),
+    FOREIGN KEY (username) REFERENCES Passenger(username),
+    FOREIGN KEY (flight_code) REFERENCES Flight(flight_code)
+);
+
+
+Sample data:
+
+INSERT INTO Passenger (username, gmail, name, gender, nationality, passport, phonenumber, address)
+VALUES ('user1', 'user1@gmail.com', 'John Doe', 'Male', 'Indian', 'AB123456', '1234567890', '123 Main St, City');
+
+INSERT INTO Login (username, password)
+VALUES ('user1', 'password1');
+
+INSERT INTO Flight (flight_code, flight_name, source, destination, class_code, amount)
+VALUES ('FL001', 'Flight to Delhi', 'Maharashtra', 'Delhi', 'Economy', 5000.00);
+
+INSERT INTO Reservation (username, flight_code, source, destination, time, date, amount)
+VALUES ('user1', 'FL001', 'Maharashtra', 'Delhi', '09:00 AM', '2023-12-20', 5000.00);
+
+INSERT INTO Cancellation (username, flight_code, source, destination, time, date, amount)
+VALUES ('user1', 'FL001', 'Maharashtra', 'Delhi', '09:00 AM', '2023-12-20', 5000.00);
+
+INSERT INTO Payment (username, flight_code, pay_date, source, destination, time, date, amount)
+VALUES ('user1', 'FL001', '2023-12-20', 'Maharashtra', 'Delhi', '09:00 AM', '2023-12-20', 5000.00);
+
+
+
+
+Sample Check:
+
+
+
+
