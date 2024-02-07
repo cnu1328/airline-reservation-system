@@ -2,7 +2,7 @@
 
 ## Introduction
 
-The Airline Reservation System is a Java-based desktop application developed to streamline the ticket booking process for airlines. This README provides a comprehensive guide to understand the functionality, usability, performance, and reliability of the system.
+The Airline Reservation System is a Java-based desktop application developed to streamline the ticket booking process for airlines. Users log in securely, provide personal details, select flights or trains, and finalize bookings. The system also offers additional features such as searching, cancel bookings, and secure payments. This README provides a comprehensive guide to understand the functionality, usability, performance, and reliability of the system.
 
 ## Problem Analysis and Project Planning
 
@@ -20,9 +20,6 @@ The project planning includes steps to ensure efficient database usage, user-fri
 
 The system functions as the main platform for e-ticketing, facilitating easy and efficient ticket booking.
 
-### Usability
-
-The user interface enhances the efficiency of the Credit Card Processing System.
 
 ### Performance
 
@@ -38,7 +35,7 @@ The system reliably processes user requests, providing a seamless experience.
 
 The use case diagram illustrates how passengers interact with the system. It includes functionalities such as viewing ticket status, confirming travel, and more.
 
-![Use Case Diagram](path/to/use_case_diagram.png)
+![Use Case Diagram](./assets/userdiagram.png)
 
 ## Class Diagram
 
