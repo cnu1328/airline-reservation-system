@@ -4,11 +4,7 @@ Welcome to the Airline Reservation System project! This Java-based desktop appli
 
 ## Demo Video
 
-<video width="640" height="360" controls>
-  <source src="./assets/demo.mkv" type="video/mp4">
-  <source src="./assets/demo.mkv" type="video/webm">
-  Your browser does not support the video tag.
-</video>
+https://user-images.githubusercontent.com/58986949/115314310-805b2780-a1a7-11eb-8558-648a367ea231.mp4
 
 ## Table of Contents
 
