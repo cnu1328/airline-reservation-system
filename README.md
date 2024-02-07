@@ -4,7 +4,7 @@ Welcome to the Airline Reservation System project! This Java-based desktop appli
 
 ## Demo Video
 
-https://user-images.githubusercontent.com/58986949/115314310-805b2780-a1a7-11eb-8558-648a367ea231.mp4
+https://github.com/cnu1328/airline-reservation-system/blob/main/assets/demo.mkv
 
 ## Table of Contents
 
