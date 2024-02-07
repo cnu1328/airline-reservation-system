@@ -1,6 +1,31 @@
 # Airline Reservation System
 
+Welcome to the Airline Reservation System project! This Java-based desktop application aims to simplify the ticket booking process for airlines. Below you'll find a comprehensive overview of the project, including the technologies used, features, and instructions for setup and usage.
+
+## Table of Contents
+
+- [Introduction](#introduction)
+- [Features](#features)
+- [Project Discription](#project-discription)
+- [Technologies Used](#technologies-used)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Contributing](#contributing)
+- [License](#license)
+
 ## Introduction
+
+The Airline Reservation System provides a user-friendly interface for passengers to book tickets, search for flights, and manage their reservations efficiently. It enhances the overall experience of both users and administrators by automating the ticket booking process and providing real-time flight information.
+
+## Features
+
+- **User Authentication:** Secure login system for passengers and administrators.
+- **Ticket Booking:** Allows passengers to search for flights, select seats, and book tickets.
+- **Flight Management:** Administrators can manage flight schedules, add new flights, and update existing ones.
+- **Reservation Management:** Passengers can view, modify, and cancel their reservations.
+- **Search Functionality:** Enables passengers to search for flights based on various criteria such as date, destination, and airline.
+
+## Project Discription
 
 The Airline Reservation System is a Java-based desktop application developed to streamline the ticket booking process for airlines. Users log in securely, provide personal details, select flights or trains, and finalize bookings. The system also offers additional features such as searching, cancel bookings, and secure payments. This README provides a comprehensive guide to understand the functionality, usability, performance, and reliability of the system.
 
@@ -42,9 +67,10 @@ The use case diagram illustrates how passengers interact with the system. It inc
 
 The system utilizes the following classes:
 
-1. **ticketReservation**
-2. **trainInfo**
-3. **passengerInfo**
+1. **TicketReservation**
+2. **FlightInfo**
+3. **PassengerInfo**
+4. **PaymentInfo**
 
 ![Class Diagram](./assets/database.jpeg)
 
@@ -88,40 +114,6 @@ The component diagram illustrates structural relationships between system compon
 
 ![Component Diagram](./assets/component.png)
 
-## Result
-
-The mini-project for the Airline Reservation System has been successfully executed, generating codes and achieving the desired functionalities.
-
-
-
-
-
-# Airline Reservation System
-
-Welcome to the Airline Reservation System project! This Java-based desktop application aims to simplify the ticket booking process for airlines. Below you'll find a comprehensive overview of the project, including the technologies used, features, and instructions for setup and usage.
-
-## Table of Contents
-
-- [Introduction](#introduction)
-- [Features](#features)
-- [Technologies Used](#technologies-used)
-- [Installation](#installation)
-- [Usage](#usage)
-- [Contributing](#contributing)
-- [License](#license)
-
-## Introduction
-
-The Airline Reservation System provides a user-friendly interface for passengers to book tickets, search for flights, and manage their reservations efficiently. It enhances the overall experience of both users and administrators by automating the ticket booking process and providing real-time flight information.
-
-## Features
-
-- **User Authentication:** Secure login system for passengers and administrators.
-- **Ticket Booking:** Allows passengers to search for flights, select seats, and book tickets.
-- **Flight Management:** Administrators can manage flight schedules, add new flights, and update existing ones.
-- **Reservation Management:** Passengers can view, modify, and cancel their reservations.
-- **Search Functionality:** Enables passengers to search for flights based on various criteria such as date, destination, and airline.
-- **Payment Integration:** Integration with payment gateways for secure transactions.
 
 ## Technologies Used
 
@@ -140,7 +132,7 @@ To run the Airline Reservation System on your local machine, follow these steps:
 1. Clone the repository to your local machine using Git:
 
 ```bash
-git clone https://github.com/your-username/airline-reservation-system.git
+git clone https://github.com/cnu1328/airline-reservation-system.git
 ```
 
 2. Install Java Development Kit (JDK) version 8 or later if not already installed.
@@ -177,7 +169,15 @@ Contributions are welcome! If you'd like to contribute to the project, please fo
 3. Push to the branch: `git push origin feature/my-feature`.
 4. Submit a pull request detailing your changes.
 
-## License
+## Result
 
-This project is licensed under the [MIT License](LICENSE).
+The mini-project for the Airline Reservation System has been successfully executed, generating codes and achieving the desired functionalities.
+
+
+
+
+
+
+
+
 
