@@ -2,6 +2,14 @@
 
 Welcome to the Airline Reservation System project! This Java-based desktop application aims to simplify the ticket booking process for airlines. Below you'll find a comprehensive overview of the project, including the technologies used, features, and instructions for setup and usage.
 
+## Demo Video
+
+<video width="640" height="360" controls>
+  <source src="./assets/demo.mkv" type="video/mp4">
+  <source src="./assets/demo.mkv" type="video/webm">
+  Your browser does not support the video tag.
+</video>
+
 ## Table of Contents
 
 - [Introduction](#introduction)
@@ -114,7 +122,6 @@ The component diagram illustrates structural relationships between system compon
 
 ![Component Diagram](./assets/component.png)
 
-
 ## Technologies Used
 
 - **Java:** Core programming language for backend logic and UI development.
@@ -172,12 +179,3 @@ Contributions are welcome! If you'd like to contribute to the project, please fo
 ## Result
 
 The mini-project for the Airline Reservation System has been successfully executed, generating codes and achieving the desired functionalities.
-
-
-
-
-
-
-
-
-
