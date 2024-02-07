@@ -20,7 +20,6 @@ The project planning includes steps to ensure efficient database usage, user-fri
 
 The system functions as the main platform for e-ticketing, facilitating easy and efficient ticket booking.
 
-
 ### Performance
 
 The system is designed to handle multiple users simultaneously without errors, ensuring efficient performance.
@@ -46,9 +45,8 @@ The system utilizes the following classes:
 1. **ticketReservation**
 2. **trainInfo**
 3. **passengerInfo**
-4. **seatAvailStatus**
 
-![Class Diagram](path/to/class_diagram.png)
+![Class Diagram](./assets/database.jpeg)
 
 ## Sequence Diagram
 
@@ -56,7 +54,7 @@ The system utilizes the following classes:
 
 The sequence diagram showcases the interaction between processes over time, representing different objects and their functions.
 
-![Sequence Diagram](path/to/sequence_diagram.png)
+![Sequence Diagram](./assets/sequenceDiagram.png)
 
 ## Collaboration Diagram
 
@@ -64,7 +62,7 @@ The sequence diagram showcases the interaction between processes over time, repr
 
 The collaboration diagram, also known as a communication diagram, displays roles, functionality, and behavior of individual objects and the system operation in real-time.
 
-![Collaboration Diagram](path/to/collaboration_diagram.png)
+![Collaboration Diagram](./assets/colaboration.png)
 
 ## State Chart Diagram
 
@@ -72,7 +70,7 @@ The collaboration diagram, also known as a communication diagram, displays roles
 
 The state chart diagram helps understand the algorithm involved in performing a method, representing states and transitions.
 
-![State Chart Diagram](path/to/state_chart_diagram.png)
+![State Chart Diagram](./assets/stateflow.png)
 
 ## Activity Diagram
 
@@ -80,7 +78,7 @@ The state chart diagram helps understand the algorithm involved in performing a 
 
 Activity diagrams represent workflows of stepwise activities and actions. It shows the overall flow of control in the system.
 
-![Activity Diagram](path/to/activity_diagram.png)
+![Activity Diagram](./assets/structure.jpeg)
 
 ## Component Diagram
 
@@ -88,9 +86,8 @@ Activity diagrams represent workflows of stepwise activities and actions. It sho
 
 The component diagram illustrates structural relationships between system components using boxed figures and communication associations.
 
-![Component Diagram](path/to/component_diagram.png)
+![Component Diagram](./assets/component.png)
 
 ## Result
 
 The mini-project for the Airline Reservation System has been successfully executed, generating codes and achieving the desired functionalities.
-
