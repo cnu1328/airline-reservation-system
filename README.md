@@ -2,6 +2,8 @@
 
 Welcome to the Airline Reservation System project! This Java-based desktop application aims to simplify the ticket booking process for airlines. Below you'll find a comprehensive overview of the project, including the technologies used, features, and instructions for setup and usage.
 
+[![Watch the video](https://github.com/cnu1328/airline-reservation-system/blob/main/assets/component.png)](https://github.com/cnu1328/airline-reservation-system/blob/main/assets/demo.mkv)
+
 [Demo Video](https://drive.google.com/file/d/1OpihJ4QWp6uysZ-pGOg4vscf5sCRpSnf/view?usp=sharing)
 
 ## Table of Contents
