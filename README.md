@@ -122,7 +122,6 @@ The component diagram illustrates structural relationships between system compon
 - **JavaFX:** Framework for building rich client applications with Java.
 - **MySQL:** Relational database management system for storing flight and passenger information.
 - **JDBC:** Java Database Connectivity for interacting with the MySQL database.
-- **Maven:** Build automation tool for managing project dependencies and building the project.
 - **Git:** Version control system for tracking changes and collaborating with team members.
 - **GitHub:** Hosting platform for storing the project repository and managing code contributions.
 
